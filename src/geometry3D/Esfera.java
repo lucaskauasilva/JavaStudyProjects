@@ -1,6 +1,6 @@
 package geometry3D;
 
-import abstractGeometry.Geom3D;
+import baseGeometry.Geom3D;
 
 public class Esfera extends Geom3D {
     private final double raio;
@@ -23,7 +23,7 @@ public class Esfera extends Geom3D {
 
     @Override
     public String toString() {
-        return String.format("Esfera: {\n  Área: %.2f\n  Volume: %.2f\n}", this.calcArea(), this.calcVolume());
+        return String.format("Esfera: {\n  Área: %.2f\n  Volume: %.2f\n}\n", this.calcArea(), this.calcVolume());
     }
 
     @Override

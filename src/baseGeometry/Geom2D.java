@@ -1,4 +1,4 @@
-package abstractGeometry;
+package baseGeometry;
 
 public abstract class Geom2D { 
 	protected double perimetro;

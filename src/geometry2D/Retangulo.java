@@ -1,6 +1,6 @@
 package geometry2D;
 
-import abstractGeometry.Geom2D;
+import baseGeometry.Geom2D;
 
 public class Retangulo extends Geom2D{
 	double base;
@@ -22,7 +22,11 @@ public class Retangulo extends Geom2D{
 	}
 	@Override
 	public String toString() {
-		return String.format("Retângulo {\n   Perímetro = %.2f\n}\n",  this.calcPerimetro());
+		return String.format("Retângulo {\n"
+				           + "  Perímetro = %.2f\n"
+				           + "  Área: %.2f\n"
+				           + "}\n",  
+		this.calcPerimetro(), this.calcArea());
 	}
 	@Override
 	public boolean equals(Object obj) {

@@ -1,6 +1,6 @@
 package geometry2D;
 
-import abstractGeometry.Geom2D;
+import baseGeometry.Geom2D;
 
 public class Triangulo extends Geom2D{
 	double ladoA;

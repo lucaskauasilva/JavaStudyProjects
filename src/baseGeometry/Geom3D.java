@@ -1,4 +1,4 @@
-package abstractGeometry;
+package baseGeometry;
 
 public abstract class Geom3D {
 	protected double area;

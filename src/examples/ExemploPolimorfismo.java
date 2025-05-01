@@ -1,10 +1,10 @@
-package polymorphismTest;
+package examples;
 
-import abstractGeometry.Geom2D;
+import baseGeometry.Geom2D;
 import geometry2D.Retangulo;
 import geometry2D.Triangulo;
 
-public class TestePolimorfismo {
+public class ExemploPolimorfismo {
 	
     public static void main(String[] args) {
     	
@@ -31,7 +31,7 @@ public class TestePolimorfismo {
      * @param geom1 Primeira figura geométrica (exemplo: Retângulo).
      * @param geom2 Segunda figura geométrica (exemplo: Triângulo).
      * @return A figura geométrica com maior perímetro, calculado via `calcPerimetro()`.
-     * @see abstractGeometry.Geom2D
+     * @see baseGeometry.Geom2D
      * @see geometry2D.Retangulo
      * @see geometry2D.Triangulo
      * @since 1.0

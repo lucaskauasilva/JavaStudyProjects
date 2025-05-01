@@ -1,6 +1,6 @@
 package geometry2D;
 
-import abstractGeometry.Geom2D;
+import baseGeometry.Geom2D;
 
 public class Circulo extends Geom2D {
     private final double raio;
@@ -17,7 +17,7 @@ public class Circulo extends Geom2D {
 
     @Override
     public String toString() {
-        return String.format("Círculo {\n Área = %.2f\n}\n", this.calcArea());
+        return String.format("Círculo {\n  Área = %.2f\n}\n", this.calcArea());
     }
 
     @Override
